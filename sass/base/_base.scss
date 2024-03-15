@@ -1,4 +1,20 @@
 body {
   background-color: $main-color;
+  max-width: 1600px;
+}
+::-webkit-scrollbar {
+  height: 5px;
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  width: 1px;
+  background-color:rgba(0, 0, 0, 0.195);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0000006b; 
+  border-radius: 50rem; 
 }
 
